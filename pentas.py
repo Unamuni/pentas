@@ -119,7 +119,6 @@ class Pentas:
 
         # from the 0/1 piece variations into position list
         def __convert_piece_variation_to_poslist(piece_array):
-            sP=np.shape(piece_array)
             ind=np.array([])
     
             for ii, row in enumerate(piece_array): #rows loop
